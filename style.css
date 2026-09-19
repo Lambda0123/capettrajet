@@ -155,3 +155,14 @@ nav a{
   border-radius:10px;
 }
 .payment-transfer p{line-height:1.6}
+
+/* ===== V7 FINAL ===== */
+.construction-banner{position:relative!important;top:auto!important;left:auto!important;right:auto!important;width:100%!important;min-height:40px!important;padding:10px 16px!important;box-sizing:border-box!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#ff0808!important;color:#fff!important;font-weight:900!important;font-size:15px!important;text-align:center!important;z-index:1000!important;animation:v7blink 1s steps(2,end) infinite}
+@keyframes v7blink{50%{opacity:.55}}
+.site-header,header{position:sticky!important;top:0!important;z-index:900!important}
+.header-inner{height:78px!important;min-height:78px!important;display:flex!important;align-items:center!important;overflow:visible!important}
+.brand-logo{width:132px!important;max-width:132px!important;max-height:62px!important;object-fit:contain!important;margin:0!important}
+.vehicle-secondary-photo{margin-top:18px;border-radius:14px;overflow:hidden}
+.vehicle-secondary-photo img{width:100%;max-height:360px;object-fit:cover;display:block}
+.payment-qr{width:210px!important;max-width:100%!important;height:auto!important;display:block!important;margin:16px auto!important}
+@media(max-width:760px){.construction-banner{font-size:11px!important;padding:8px 7px!important}.header-inner{height:68px!important;min-height:68px!important}.brand-logo{width:108px!important;max-width:108px!important;max-height:54px!important}nav{gap:10px!important;overflow-x:auto!important}nav a{font-size:12px!important}}
