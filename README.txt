@@ -10,7 +10,7 @@ Cette version comprend :
 - Formulaire de réservation enrichi : passagers, trajet, bagages, vol/train, retour et message.
 - Envoi de la demande via la messagerie e-mail du visiteur.
 
-Important : le formulaire utilise mailto:contact@capettrajet.fr. Pour recevoir les réservations sans dépendre du logiciel de messagerie du client, il faudra ensuite connecter un vrai formulaire en ligne (Formspree, EmailJS, serveur, etc.).
+Important : le formulaire utilise mailto:awassi_claude@hotmail.com. Pour recevoir les réservations sans dépendre du logiciel de messagerie du client, il faudra ensuite connecter un vrai formulaire en ligne (Formspree, EmailJS, serveur, etc.).
 
 Photo Arkana : Alexander Migl / Wikimedia Commons, CC BY-SA 4.0.
 Source : https://commons.wikimedia.org/wiki/File:Renault_Arkana_IMG_4001.jpg
