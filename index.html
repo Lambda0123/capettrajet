@@ -17,7 +17,9 @@
     <a class="brand" href="#accueil" aria-label="CAP & TRAJET VTC"><img class="brand-logo" src="assets/logo-cap-trajet.png" alt="CAP & TRAJET VTC"></a>
     <button id="menu" aria-label="Ouvrir le menu">☰</button>
     <nav>
-      <a href="#prestations">Prestations</a><a href="#chauffeur">Chauffeur</a><a href="#vehicule">Véhicule</a><a href="#zone">Zone</a><a class="cta" href="#reservation">Réserver</a>
+      <a href="#prestations">Prestations</a><a href="#chauffeur">Chauffeur</a><a href="#vehicule">Véhicule</a><a href="#zone">Zone</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#paiement">Paiement</a><a class="cta" href="#reservation">Réserver</a>
     </nav>
   </div>
 </header>
@@ -57,6 +59,101 @@
 <p class="small-note">* Caractéristiques issues de la documentation Renault consultée. Le véhicule présenté sur ce site correspond au modèle envisagé pour l’activité ; la finition et les équipements définitifs pourront évoluer.</p>
 </div></div></section>
 <section id="zone" class="section soft"><div class="wrap"><p class="eyebrow">ZONE DESSERVIE</p><h2>Lille, la métropole et au-delà.</h2><p>Prise en charge à Lille et dans les communes de la Métropole Européenne de Lille, avec possibilité de trajets longue distance sur réservation.</p><div class="chips"><span>Lille</span><span>Lambersart</span><span>Villeneuve-d’Ascq</span><span>Roubaix</span><span>Tourcoing</span><span>Lesquin</span><span>MEL</span><span>France</span></div></div></section>
+
+<section id="tarifs" class="section tariffs-section">
+  <div class="container">
+    <div class="eyebrow">NOS TARIFS</div>
+    <h2>Des tarifs clairs, annoncés avant votre trajet.</h2>
+    <p class="section-lead">Les prix VTC sont librement fixés et peuvent être proposés au forfait dès la réservation. Les montants ci-dessous constituent la grille publique de CAP &amp; TRAJET VTC et pourront être confirmés ou ajustés selon l'adresse exacte, l'horaire et les besoins du trajet.</p>
+
+    <div class="tariff-grid">
+      <div class="tariff-card">
+        <h3>Déplacements Lille &amp; MEL</h3>
+        <table>
+          <tr><th>Prestation</th><th>À partir de</th></tr>
+          <tr><td>Trajet dans Lille</td><td>20 €</td></tr>
+          <tr><td>Lille ↔ gares Lille-Flandres / Lille-Europe</td><td>20 €</td></tr>
+          <tr><td>Déplacement dans la MEL</td><td>25 €</td></tr>
+          <tr><td>Prise en charge MEL → Lesquin</td><td>30 €</td></tr>
+        </table>
+      </div>
+
+      <div class="tariff-card">
+        <h3>Aéroports</h3>
+        <table>
+          <tr><th>Trajet depuis Lille</th><th>À partir de</th></tr>
+          <tr><td>Lille ↔ Lille-Lesquin</td><td>30 €</td></tr>
+          <tr><td>Lille ↔ Bruxelles-Zaventem</td><td>190 €</td></tr>
+          <tr><td>Lille ↔ Charleroi</td><td>180 €</td></tr>
+          <tr><td>Lille ↔ Paris-CDG</td><td>300 €</td></tr>
+          <tr><td>Lille ↔ Paris-Orly</td><td>320 €</td></tr>
+          <tr><td>Lille ↔ Beauvais-Tillé</td><td>320 €</td></tr>
+        </table>
+      </div>
+
+      <div class="tariff-card">
+        <h3>Mise à disposition</h3>
+        <table>
+          <tr><th>Service</th><th>Tarif</th></tr>
+          <tr><td>Chauffeur à l'heure</td><td>50 €/h</td></tr>
+          <tr><td>Forfait 4 h</td><td>190 €</td></tr>
+          <tr><td>Forfait 8 h</td><td>350 €</td></tr>
+          <tr><td>Longue distance</td><td>Sur devis</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="tariff-notes">
+      <strong>À savoir :</strong> le prix définitif est confirmé avant la course. Les péages, attentes prolongées, détours ou prestations particulières peuvent être précisés dans le devis. Les tarifs affichés sont des tarifs de référence, pas un barème légal.
+    </div>
+
+    <div class="tariff-actions">
+      <a class="btn btn-primary" href="#reservation">Demander un devis</a>
+      <a class="btn btn-secondary" href="tel:+33763732661">Appeler le 07 63 73 26 61</a>
+    </div>
+  </div>
+</section>
+
+<section id="paiement" class="section payment-section">
+  <div class="container">
+    <div class="eyebrow">PAIEMENT</div>
+    <h2>Payer simplement depuis votre téléphone.</h2>
+    <p class="section-lead">Les QR codes ci-dessous sont prévus pour le paiement mobile. Le paiement par carte nécessite votre lien marchand (Stripe, SumUp ou autre). Le QR de virement nécessite vos coordonnées bancaires professionnelles.</p>
+
+    <div class="payment-grid">
+      <div class="payment-card">
+        <div class="payment-icon">CB</div>
+        <h3>Paiement par carte bancaire</h3>
+        <p>Scannez le QR code pour ouvrir votre page de paiement sécurisée sur votre téléphone.</p>
+        <div class="qr-placeholder" data-payment-qr>
+          <div class="qr-box">QR<br>CB</div>
+        </div>
+        <p class="payment-status"><strong>Activation à finaliser :</strong> ce QR doit être relié à votre lien de paiement marchand.</p>
+      </div>
+
+      <div class="payment-card">
+        <div class="payment-icon">€</div>
+        <h3>Paiement par virement bancaire</h3>
+        <p>Le QR code peut ouvrir les informations de votre compte professionnel et préremplir le virement lorsque la banque du client le permet.</p>
+        <div class="qr-placeholder" data-bank-qr>
+          <div class="qr-box">QR<br>VIREMENT</div>
+        </div>
+        <p class="payment-status"><strong>Activation à finaliser :</strong> votre IBAN et votre BIC sont nécessaires pour générer un QR de virement réellement utilisable.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="payment-card payment-transfer">
+  <h3>💶 Paiement par virement bancaire</h3>
+  <p>Scannez le QR code avec l’application bancaire de votre téléphone. Le montant peut être saisi directement dans votre application.</p>
+  <img class="payment-qr" src="assets/qr-virement-sepa.png" alt="QR code pour paiement par virement SEPA">
+  <p><strong>Bénéficiaire :</strong> Claude Awassi</p>
+  <p><strong>IBAN :</strong> FR76 1670 6050 4553 9985 6262 381</p>
+  <p><strong>BIC :</strong> AGRIFRPP867</p>
+</div>
+
+</section>
+
 <section id="reservation" class="section reserve"><div class="wrap reserve-grid"><div>
 <p class="eyebrow">RÉSERVATION</p><h2>Organisons votre trajet.</h2><p>Indiquez les informations essentielles de votre déplacement. Votre demande sera préparée pour un échange rapide par téléphone ou par e-mail.</p>
 <div class="contact"><b>Réservation directe</b><a href="tel:+33763732661">📞 07 63 73 26 61</a><a href="mailto:awassi_claude@hotmail.com">✉ awassi_claude@hotmail.com</a><span>Réponse et confirmation selon les disponibilités.</span></div>
